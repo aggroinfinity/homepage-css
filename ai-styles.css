@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Aggro Infinity</title>
+
+		<!-- STYLE IMPORTS (Bootstrap, jQuery, etc) -->
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+		 <!-- CSS STYLES -->
+		 <style type="text/css">
+		 h1 {padding-bottom: 15px; padding-left: 15px;}
+		 .contentWrap {width: 60%; margin: 0px auto; padding: 10px; min-height: 200px; }
+		 nav {width: 90%; margin: 0px auto; border-bottom: 1px solid #ccc; margin-bottom: 25px;}
+		 nav ul li {display: inline;}
+		 .navBar {margin: 0px auto; width: 230px;}
+		 .navBar ul li {padding-right: 20px;}
+		 .userBlock {text-align: center; transition: .5s; margin-bottom: 15px; padding-bottom: 15px; opacity: .7; transition: 1s; filter: blur(2px);
+		 }
+		 .userBlock h4 {color: #fff;}
+		 .userBlock:hover {; opacity: 1; filter: blur(0px); border: 1px solid #ccc; border-radius: 5px; margin-top: 15px;}
+		 .userLouie,.userTrin,.userDefault {background: #fff;}
+		 .userLouie:hover {background: url("https://farm1.staticflickr.com/449/19451927816_0ad8640545_k_d.jpg"); background-size: 100%; border: none; background-position: left center;}
+		 .userTrin:hover {background: url("http://i.imgur.com/BHnQ73Y.jpg"); background-size: 100%; border: none; background-position: left center;}
+		 .userBlock img {padding: 10px 0px; border-bottom: 2px #ccc solid; transition: 1s; filter: grayscale(100%);}
+		 .userBlock img:hover {border-bottom: 2px #FF7736 solid; filter: grayscale(0%);}
+         
+
+            @media (max-width: 1200px) {
+              .userBlock {padding-top: 10px; filter: blur(0px); opacity: 1;}    
+              .userBlock:hover {margin-top: 0px;}
+              .userLouie {
+                background: url("https://farm1.staticflickr.com/449/19451927816_0ad8640545_k_d.jpg"); background-size: 100%; background-repeat: no-repeat; border-radius: 5px;
+              }
+              .userLouie:hover {
+                background: url("https://farm1.staticflickr.com/449/19451927816_0ad8640545_k_d.jpg"); background-size: 100%; background-repeat: no-repeat; border-radius: 5px;
+              }
+               .userTrin {
+                background: url("http://i.imgur.com/BHnQ73Y.jpg"); background-size: 100%; background-repeat: no-repeat; border-radius: 5px;
+              }
+              .userTrin:hover {
+                background: url("http://i.imgur.com/BHnQ73Y.jpg"); background-size: 100%; background-repeat: no-repeat; border-radius: 5px;
+              }
+              
+            }
+            
+
+		 </style>
+
+	</head>
+
+<body>
+<nav>
+<h1>Aggro Infinity</h1>
+	<div class="navBar">
+		<ul>
+			<li><a href="#">Link 1</a></li>
+			<li><a href="#">Link 2</a></li>
+			<li><a href="#">Link 3</a></li>
+		</ul>
+	</div>	
+</nav>
+<div class="contentWrap">
+
+	<div class="userBlock userLouie col-lg-4">
+		<h4>Louie</h4>
+		<a href="http://www.ai-louie.tumblr.com" target="_blank"><img src="http://i.imgur.com/YgjMlOA.png"></a>
+
+	</div>
+
+	<div class="userBlock userTrin col-lg-4">
+		<h4>Trinidad</h4>
+		<img src="http://i.imgur.com/aWFfCm3.png">
+	</div>
+
+	<div class="userBlock userDefault col-lg-4">
+		<h4>Placeholder</h4>
+		<img src="http://i.imgur.com/9PaqnnN.png">
+	</div>
+	
+
+</div>
+
+</body>
+
+</html>
